@@ -40,11 +40,11 @@ int main()
     
       printf("%d\n",strcmp(str3,str4));
 
-       printf("%d\n",strcmp(str3,str5));
+      printf("%d\n",strcmp(str3,str5));
 
-        printf("%d\n",strcmp(str4,str5));
+      printf("%d\n",strcmp(str4,str5));
 
-        printf("%d\n",strcmp(str5,str6));//strcmp if it is 0 thst means the str are same
+      printf("%d\n",strcmp(str5,str6));//strcmp if it is 0 thst means the str are same
        
 
 
