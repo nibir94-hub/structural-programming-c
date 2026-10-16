@@ -36,11 +36,12 @@ ag++;
 printf("age %d\n",*ag);//age[2]=43
 ag-=2;
 printf("age %d\n",*ag);//age[0]=13
-
+//pointer substraction
 int *start = &age[1];
 int *end = &age[5];
 
-printf("%ld",end-start);
+printf("%ld\n",end-start);
 
     return 0;
+    
 }
