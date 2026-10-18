@@ -12,17 +12,17 @@ if (scanf("%d",&a) != 1 )
 {
     printf("invalid input why u make mistake ('~')");
     return 1;
-
 }
 printf("enter the 1st number :");
 if (scanf("%d",&b) != 1 )
 {
     printf("invalid input why u make mistake ('~')");
     return 1;
-
 }
 
-printf("your sum of two numbers are = %d\n",sum_two(a,b));
+int result = sum_two(a,b);
+
+printf("your sum of two numbers are = %d\n",result);
 
 
 
