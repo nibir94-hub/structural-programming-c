@@ -9,7 +9,7 @@ printf("%d\n",myarr[i]);
 }
 int add_five(int  x)
 {
-    return x +5;
+    return x + 5;
 }
 
 int main()
