@@ -13,7 +13,7 @@ if (scanf("%d",&a) != 1 )
     printf("invalid input why u make mistake ('~')");
     return 1;
 }
-printf("enter the 1st number :");
+printf("enter the 2nd number :");
 if (scanf("%d",&b) != 1 )
 {
     printf("invalid input why u make mistake ('~')");
